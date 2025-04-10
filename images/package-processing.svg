@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="packageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#434db9"/>
+      <stop offset="100%" style="stop-color:#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#packageGradient)">
+    <path d="M75 35L50 20L25 35v30l25 15l25-15V35zM50 65V40l20-12v25L50 65z"/>
+  </g>
+  <rect x="30" y="30" width="40" height="2" fill="#00bcd4" opacity="0.8">
+    <animate attributeName="y" from="30" to="70" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <style>
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    g { animation: rotate 6s infinite linear; transform-origin: center; }
+  </style>
+</svg>

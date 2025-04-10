@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="droneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00bcd4"/>
+      <stop offset="100%" style="stop-color:#7c4dff"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#droneGradient)">
+    <path d="M50 20L40 35H60L50 20Z"/>
+    <path d="M35 45L25 40L15 45L25 50L35 45Z"/>
+    <path d="M65 45L75 40L85 45L75 50L65 45Z"/>
+    <circle cx="50" cy="45" r="10"/>
+    <path d="M50 60L40 55L50 50L60 55L50 60Z"/>
+  </g>
+  <circle cx="50" cy="45" r="5" fill="#fff"/>
+</svg>

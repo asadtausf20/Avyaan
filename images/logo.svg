@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#434db9"/>
+      <stop offset="100%" style="stop-color:#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <path d="M40 25 L30 15 L50 15 L40 25 L40 35 L30 35 L40 25 M60 25 L50 15 L70 15 L60 25 L60 35 L50 35 L60 25" fill="url(#logoGradient)"/>
+  <text x="80" y="32" font-family="Segoe UI, sans-serif" font-size="24" font-weight="bold" fill="#1a237e">AVYAAN</text>
+</svg>
