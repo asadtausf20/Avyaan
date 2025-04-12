@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download - AVYAAN</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .download-section {
+            padding: 4rem 5%;
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .app-showcase {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .app-info {
+            flex: 1;
+            min-width: 300px;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .app-features {
+            margin: 2rem 0;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+        }
+
+        .feature-item i {
+            color: var(--secondary-color);
+            margin-right: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .download-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            margin-top: 2rem;
+        }
+
+        .download-button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+
+        .download-button i {
+            margin-right: 0.5rem;
+        }
+
+        .requirements {
+            margin-top: 3rem;
+            padding: 2rem;
+            background-color: var(--light-bg);
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .requirements h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .requirements ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .requirements li {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .requirements li::before {
+            content: "•";
+            color: var(--secondary-color);
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">AVYAAN</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="download.html" class="active">Download</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="download-section">
+            <h1>Download Avyaan App</h1>
+            <p>Experience the future of delivery at your fingertips</p>
+
+            <div class="app-showcase">
+                <div class="app-info">
+                    <h2>Why Download Our App?</h2>
+                    <div class="app-features">
+                        <div class="feature-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Real-time Tracking</h3>
+                                <p>Track your delivery in real-time with precise GPS location</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Instant Scheduling</h3>
+                                <p>Schedule deliveries with just a few taps</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-bell"></i>
+                            <div>
+                                <h3>Smart Notifications</h3>
+                                <p>Get instant updates about your delivery status</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1FVcVsExmea2bEv37A2cXrmbNBp3M17y7/view?usp=drivesdk" class="download-button">
+                        <i class="fas fa-download"></i>
+                        Download APK
+                    </a>
+
+                    <div class="requirements">
+                        <h3>System Requirements</h3>
+                        <ul>
+                            <li>Android 6.0 or higher</li>
+                            <li>Minimum 2GB RAM</li>
+                            <li>GPS enabled device</li>
+                            <li>Active internet connection</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About AVYAAN</h3>
+                <p>Revolutionizing delivery services through cutting-edge drone technology. Fast, secure, and eco-friendly solutions for modern logistics.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="download.html">Download</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@ayaan.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> kolkata, west bengal</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 AVYAAN. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
